@@ -1,0 +1,63 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    overflow: hidden;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: 'KoHo', sans-serif;
+    margin-bottom: 40px;
+    color: rgb(20, 20, 20);
+}
+.subtitulo {
+    margin: 0;
+    color: b;
+    display: inline;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top:-80%;
+    margin-left: -90px;
+}
+
+
+/* ----- ----- Estilos de materialize 😂😂😂----- -----*/
+.carousel{
+min-height:490px;
+margin-top:100px;
+margin-left: -6%;
+
+
+}
+
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    user-select: none;
+    width:700px;
+    height:700px;
+    
+}
+.carousel .carousel-item img{
+    width: 200%;
+    height:300px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left:0;
+
+    z-index: -1;
+    border-radius: 15px;
+}
+.carousel .indicators .indicators-item{
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin:0 15px;
+}

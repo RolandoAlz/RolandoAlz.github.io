@@ -1,0 +1,29 @@
+body {
+	background: #ffffff;
+}
+
+header {
+	text-align: center;
+	font-weight: 400;
+	padding: 40px;
+	font-family: 'Sen', sans-serif;
+}
+
+.contenedor {
+	margin: 10px auto;
+	max-width: 700px;
+}
+
+.card {
+	width: 700px;
+	padding: 10px;
+	background: #fff;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 50px rgba(71, 71, 71, 0.15);
+}
+
+.card img {
+	width: 100%;
+	vertical-align: top;
+}
